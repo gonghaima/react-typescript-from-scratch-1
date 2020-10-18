@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/gonghaima/react-typescript-from-scratch-1/issues"
   },
-  "homepage": "https://github.com/gonghaima/react-typescript-from-scratch-1#readme"
+  "homepage": "https://github.com/gonghaima/react-typescript-from-scratch-1#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1"
+  }
 }
