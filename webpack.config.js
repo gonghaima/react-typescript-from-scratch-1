@@ -24,8 +24,8 @@ module.exports = {
                 loader: require.resolve('babel-loader')
             },
             {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                test: /\.s?css$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ]
     }
